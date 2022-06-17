@@ -35,6 +35,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="libman.json" />
+    <Content Include="static\290x180.gif" />
+    <Content Include="static\450x250.gif" />
+    <Content Include="static\960x360.gif" />
+    <Content Include="static\index.html" />
+    <Content Include="static\styles\index.html" />
+    <Content Include="static\styles\layout.css" />
+    <Content Include="static\SubscriptionEHRapplicationPending.gif" />
+    <Content Include="static\SubscriptionEHRapplicationSuccess.gif" />
+    <Content Include="templates\images\demo\290x180.gif" />
+    <Content Include="templates\images\demo\450x250.gif" />
+    <Content Include="templates\images\demo\960x360.gif" />
+    <Content Include="templates\images\demo\index.html" />
+    <Content Include="templates\images\index.html" />
+    <Content Include="templates\index.html" />
+    <Content Include="templates\index2.html" />
+    <Content Include="templates\licence.txt" />
+    <Content Include="templates\SanDiegoTrip.txt" />
+    <Content Include="templates\scripts\html5shiv.js" />
+    <Content Include="templates\scripts\index.html" />
+    <Content Include="templates\styles\index.html" />
+    <Content Include="templates\styles\layout.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\" />
+    <Folder Include="static\styles\" />
+    <Folder Include="templates\" />
+    <Folder Include="templates\images\" />
+    <Folder Include="templates\images\demo\" />
+    <Folder Include="templates\scripts\" />
+    <Folder Include="templates\styles\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
