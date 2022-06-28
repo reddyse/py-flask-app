@@ -1,0 +1,10 @@
+# init a base image 
+FROM python:3.6.1-alpine
+# define the present working directory
+WORKDIR /FhirRecieverAppVS
+# copy the contents into a working dir
+ADD . /FhirRecieverAppVS
+# run pip install the deendencies of the flask app
+RUN pip install -r requirements.txt
+#define the command to start the container
+CMD ["python","app.py"]
